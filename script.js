@@ -62,12 +62,13 @@ if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
 
 // Write password to the #password input
 function writePassword() {
+  var correctPrompts = showPrompts();
   
 //WHEN all prompts are answered, THEN a password is generated that matches the selected criteria
 //WHEN the password is generated, THEN the password is either displayed in an alert or written to the page
 
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
+  var password = generatePassword(); // There is no generate password function, so this needs to be created.
+  var passwordText = document.querySelector("#password"); // This line targets the password id in HTML.
  
   passwordText.value = password;
  }
