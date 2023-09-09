@@ -27,7 +27,6 @@ function generatePassword () {
 function showPrompts(){
   approvedCharacters = [];
 
-//WHEN prompted for the length of the password, THEN I choose a length of at least 8 characters and no more than 128 characters
 // Prompt user for character length.  Verify length is between 8 and 128 characters long.
 passwordLength = parseInt(prompt("How many characters would you like in your password? (8 - 128 characters"));
 // If statement.  If the length is not between 8 and 128 characters long, keep prompting until it is.
@@ -36,7 +35,6 @@ if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
   return false;
 }
 
-//WHEN asked for character types to include in the password, THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
 // Ask user if they want to include:
    // Numbers
    // Lowercase Letters
@@ -63,9 +61,6 @@ if (isNaN(passwordLength) || passwordLength < 8 || passwordLength > 128) {
 // Write password to the #password input
 function writePassword() {
   var correctPrompts = showPrompts();
-  
-//WHEN all prompts are answered, THEN a password is generated that matches the selected criteria
-//WHEN the password is generated, THEN the password is either displayed in an alert or written to the page
 
   var password = generatePassword(); // There is no generate password function, so this needs to be created.
   var passwordText = document.querySelector("#password"); // This line targets the password id in HTML.
