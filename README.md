@@ -1,14 +1,15 @@
 # Password-Generator
 
 ## Description
-AS A web developer with access to sensitive data, I WANT to randomly generate a password that meets certain criteria SO THAT I can create a strong password that provides greater security.
+As a full stack developer with access to sensitive data, I want to randomly generate a password that meets certain criteria so that I can create a strong password that provides greater security.
 
 # Usage
-To use this application to obtain a new and secure password, click the button to generate a password.  You will be presented with a series of prompts for password criteria.  When prompted for password criteria, select which criteria to include in the password.  When prompted for the length of the password, choose a length of at least 8 characters and no more than 128 characters.  When asked for character types to include in the password, confirm whether or not to include lowercase, uppercase, numeric, and/or special characters.  After you answer each prompt, your input should be validated and at least one character type should be selected.  When all prompts are answered, a password is generated that matches the selected criteria.  The password will then be displayed on the page.
+To use this application to obtain a new and secure password, click the button to generate a password.  You will be presented with a series of prompts for password criteria.  When prompted for password criteria, select which criteria to include in the password.  When prompted for the length of the password, choose a length of at least 8 characters and no more than 128 characters.  When asked for character types to include in the password, confirm whether or not to include lowercase, uppercase, numeric, and/or special characters.  After you answer each prompt, your input will be validated and at least one character type should be selected.  When all prompts are answered, a password is generated that matches the selected criteria.  The password will then be displayed on the page.
 
 # Live Site Application
 [Link to Live Site] https://mcalvario.github.io/Password-Generator/
 [Screenshot of application]![Alt text](gp-1.png)
+[Link to updated portfolio] https://mcalvario.github.io/Professional-Portfolio/
 
 # Credits
 Youtube Password Generator: https://www.youtube.com/watch?v=x4HUaiazDes
